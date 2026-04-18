@@ -7,7 +7,7 @@ int main()
     SetConsoleOutputCP(1251);
 
     int arrSize{};
-    std::cout << "Ââåäèòå ðàçìåð ìàññèâà: ";
+    std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð¼Ð°ÑÑÐ¸Ð²Ð°: ";
     std::cin >> arrSize;
 
     int * intPtr = static_cast<int *>(malloc(arrSize * sizeof (int)));
@@ -17,7 +17,7 @@ int main()
         std::cin >> intPtr[i];
     }
 
-    std::cout << "Ââåä¸ííûé ìàññèâ: ";
+    std::cout << "Ð’Ð²ÐµÐ´Ñ‘Ð½Ð½Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð²: ";
     for (int i = 0; i < arrSize; i++) {
         std::cout<< intPtr[i] << " ";
     }
